@@ -1,0 +1,28 @@
+OWNER: That Julie Baked
+
+FEATURES:
+	
+-Showcase homebased products
+-Theme: Minimalist/ Chic/ Clean -->pink/pastel colors?
+
+-Content:
+	-Landing Page: displays recent product/ best seller
+	-Home: displays slideshow of product
+	-Products: list of products
+	-Blog? - share some techniques on baking
+	-About: who/what we do ? That Julie baked
+	-Contact/Order Form:
+	-FAQS: frequently asked questions on products/ ordering
+
+
+TARGET MARKET:
+	
+-anyone WHO eats DESSERTS
+-cakes for celebrations
+-events who needs desserts
+
+
+TARGET MARKET:
+	
+-Follow on social Media
+-order forms

@@ -1,0 +1,56 @@
+Capstone Project 1
+
+-Core Requirements & Specification
+	- Mobile-First (mobile, tablet, desktop)
+	- 5 individual pages hyperlinked together
+		- Landing Page (index.html)
+		- Home Page (e.g., home.html, dashboard.html...)
+		- About Page
+
+	- Deployed to Github upon doing the demo of prototype
+	- with/without CSS framework(s)
+	- with/without Javascript or third-party plug-ins(use at your own risk)
+	- Navigation bar/tabs
+	- File & Folder
+
+- Conceptualization Phase:
+	- April 6, 2018
+
+- Development Phase:
+	- April 10-12, 2018
+
+- Deployment/Testing Phase:
+	- April 13, 2018
+
+- Prototype Phase:
+	- April 16, 2018(Demo Day)
+
+Agenda for today:(Aril 6,2018)
+	-Product Discovery and Ideation
+		-Documentation (Google Docs):
+			-Who is the owner of the product
+			- Core features the owner wants
+			- Who is the target market' or audience of the product
+			- Core features the 'target market'/audience needs
+		-Sketches (core5 pages of the product)
+			- Mobile, tablet, desktop
+		-Wireframe (core5 pages of the product)
+			- wireframe.cc, Google Drawing, etc.
+			- Mobile, tablet, desktop
+
+**I will retrieve the URL of your outputs later on for documentation purposes
+
+****************************************
+Disclaimer: No copyright infringement is intended. This is only for educational purposes and not for profit. 
+Some asset/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.
+
+CCO(Creative Common Zero)-> License-> Free assets (images,audio, text, etc.)
+
+
+
+
+****************************************
+idea-->sketch-->wireframe-->mockup-->code
+
+wireframe: mobile version
+sketches: mobile/tablet/desktop
