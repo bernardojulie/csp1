@@ -7,6 +7,9 @@
 
 	<title>That Julie Baked</title>
 
+	<!-- importsIcons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
 	<!-- externalCss -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -15,57 +18,86 @@
 
 </head>
 <body>
-	<nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- <div class="navbar-header">
-        <a class="navbar-brand" href="#">WebSiteName</a>
-      </div> -->
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">FAQS</a></li>
-      </ul>
-    </div>
-</nav>
+  	<div class="container-fluid">
+  		<div class="row">
+  		  	<a href="#"><img src="assets/img/logo.png" alt="brand logo"></a>
+	   </div>
 
-	<div class="container">
-  <h2>Carousel Example</h2>  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+	   <div class="row">
+	   	<a href="https://www.facebook.com/thatjuliebaked" target="blank" title="Facebook" class="btn btn-lg btn-danger"><i class="fab fa-facebook-f"></i></a>
+   		<a href="https://instagram.com/thatjuliebaked" target="blank" title="Instagram" class="btn btn-lg btn-danger"><i class="fab fa-instagram"></i></a>
+		</div>
+   </div>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="assets/img/back1.jpg" class="img-responsive" alt="Los Angeles" style="width:70%;">
-      </div>
+   <nav class="navbar navbar-default navbar-fixed">
+   	<div class="container-fluid">
+   		<div class="navbar-header">
+   			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuItems" aria-expand="false">
+   				<span class="sr-only">Toggle Navigation</span>	
+   				<span class="icon-bar"></span>
+   				<span class="icon-bar"></span>
+   				<span class="icon-bar"></span>
+   			</button>
+   		</div>
 
-      <div class="item">
-        <img src="assets/img/home.jpg" class="img-responsive" alt="Chicago" style="width:70%;">
-      </div>
-    
-      <div class="item">
-        <img src="assets/img/logo1.jpg" class="img-responsive" alt="New york" style="width:70%;">
-      </div>
-    </div>
+	   	<div class="collapse navbar-collapse navbar-left" id="menuItems">
+	      	<ul class="nav navbar-nav">
+	         	<li><a href="#">Home</a></li>
+	         	<li><a href="#">Products</a></li>
+	         	<li><a href="#">About</a></li>
+	         	<li><a href="#">Contact</a></li>
+	         	<li><a href="#">FAQs</a></li>
+	      	</ul>
+	   	</div>
+	   </div>
+   </nav>
+  	
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
+	
+   <div class="container"> 
+    	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	      <!-- Indicators -->
+	      <ol class="carousel-indicators">
+	        	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	        	<li data-target="#myCarousel" data-slide-to="1"></li>
+	        	<li data-target="#myCarousel" data-slide-to="2"></li>
+	      </ol>
+
+	      <!-- Wrapper for slides -->
+	      <div class="carousel-inner">
+	        	<div class="item active">
+	          	<img src="assets/img/redvelvet.jpg" class="img-responsive image-slider" alt="Los Angeles">
+	          	<div class="container">
+	            	<div class="carousel-caption">
+	              	<!-- <h2 class="text-right">That Julie baked</h2>
+	              	<p class="text-right">Eat dessert first</p> -->
+	            	</div>    
+	          	</div>
+	        	</div>
+
+	        	<div class="item">
+	          	<img src="assets/img/bread.jpg" class="img-responsive image-slider" alt="Chicago">
+	        	</div>
+	      
+	        	<div class="item">
+	          	<img src="assets/img/doublechoco.png" class="img-responsive image-slider" alt="New york">
+	        	</div>
+	      </div>
+
+	      <!-- Left and right controls -->
+	      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	        	<span class="glyphicon glyphicon-chevron-left"></span>
+	        	<span class="sr-only">Previous</span>
+	      </a>
+	      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	        	<span class="glyphicon glyphicon-chevron-right"></span>
+	        	<span class="sr-only">Next</span>
+	      </a>
+	   </div>
+  	</div>
+
+
+
 
 
 <!-- bootstrap jQuery	 -->
@@ -73,5 +105,6 @@
 
 <!-- include all compiled plugins needed for bootstrap -->
 <script src="assets/js/bootstrap.min.js"></script>
+
 </body>
 </html>
