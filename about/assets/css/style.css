@@ -42,19 +42,11 @@ body{
 	background-color: #f06292;
 }
 
-/*--------*/
-/*carousel*/
-/*--------*/
-.image-slider{
- 	width: 798px;
- 	height: 599px;
- 	margin: 0 auto;
-}
+/*-------------*/
+/*----about----*/
+/*-------------*/
 
-.container > .carousel > .carousel-control{
-	background-color: #f8bbd0;
-	opacity: 0.5;
-} 
+
 
 /*------*/
 /*footer*/
@@ -69,7 +61,6 @@ body{
 	background-color: #f06292;
 	text-align: center;
 }
-
 
 
 

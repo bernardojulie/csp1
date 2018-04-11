@@ -42,36 +42,42 @@ body{
 	background-color: #f06292;
 }
 
-/*--------*/
-/*carousel*/
-/*--------*/
-.image-slider{
- 	width: 798px;
- 	height: 599px;
- 	margin: 0 auto;
+/*--------------------*/
+/*----find us here----*/
+/*--------------------*/
+.img-map{
+	width: 80%;
+	margin: 20px auto;
+	border: 2px solid grey;
 }
 
-.container > .carousel > .carousel-control{
-	background-color: #f8bbd0;
-	opacity: 0.5;
-} 
-
+.panel-group{
+	padding-bottom: 20px;
+}
 /*------*/
 /*footer*/
 /*------*/
-.footer > .col-md-6 > p{
+/*.footer > .col-md-6 > p{
 	margin-top: 10px;
 	background-color: #f06292;
-}
+}*/
 
-.footer > .col-xs-12 {
+/*.footer > .col-xs-12 {
 	margin-top: 10px;
 	background-color: #f06292;
 	text-align: center;
+}*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f06292;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
 }
-
-
-
 
 
 

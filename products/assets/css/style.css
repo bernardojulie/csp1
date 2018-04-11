@@ -70,7 +70,24 @@ body{
 	text-align: center;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
 
+/*---------------------*/
+/*----products.html----*/
+/*---------------------*/
+
+.menu-header{
+	background-color: #f06292;
+	color: white;
+	margin: 20px;
+}
 
 
 
