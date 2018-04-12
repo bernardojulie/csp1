@@ -14,8 +14,6 @@
 body{
 	background-color: #ffffff;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='61' height='61' viewBox='0 0 90 90'%3E%3Ccircle fill-opacity='0.93' fill='%23f2cdfa' cx='45' cy='45' r='9'/%3E%3Cg fill='%23eff754' fill-opacity='0.93'%3E%3Ccircle cx='0' cy='90' r='9'/%3E%3Ccircle cx='90' cy='90' r='9'/%3E%3Ccircle cx='90' cy='0' r='9'/%3E%3Ccircle cx='0' cy='0' r='9'/%3E%3C/g%3E%3C/svg%3E");
-	/*padding-bottom: 70px;*/
-	
 }
 
 /*------*/
@@ -50,9 +48,16 @@ body{
 }
 
 .btn-view{
-	background-color:#ce93d8; 
+	background-color:#fce4ec; 
 	width: 100%;
 	margin: 0 auto;
+}
+
+.back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1;
 }
 
 /*------*/
@@ -62,7 +67,15 @@ body{
    position: relative;
    left: 0;
    bottom: 0;
-   background-color: grey;
+   background-color: #f06292;
    color: white;
+}
+
+.follow-us{
+	color: white;
+}
+
+.svg-inline--fa{
+	font-size: x-large;
 }
 

@@ -51,6 +51,15 @@ body{
    position: relative;
    left: 0;
    bottom: 0;
-   background-color: grey;
+   background-color: #f06292;
    color: white;
 }
+
+.follow-us{
+	color: white;
+}
+
+.svg-inline--fa{
+	font-size: x-large;
+}
+
