@@ -23,17 +23,19 @@
 <body>
 	<!-- header -->
 	<div class="container">
-		<div class="logo">
-			<a href="#"><img src="assets/img/logo.png" class="img-responsive image-logo" alt="brand logo"></a>
-   	</div>
- 	</div>
+		<div class="row">
+			<div class="col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">
+				<a href="#"><img src="assets/img/logo.png" class="img-responsive image-logo" alt="brand logo"></a>
+			</div>
+		</div>
+   </div>
 
   	<!-- navBar -->
   	<div class="container">
-    	<nav class="navbar navbar-default navbar-expand-md my-navbar">
+    	<nav class="navbar my-navbar">
 	   	<div class="container">
-	   		<div class="navbar-header">
-	   			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuItems" aria-expand="false">
+	   		<div class="navbar-header navbar-default my-navbar">
+	   			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuitems" aria-expand="false">
 	   				<span class="sr-only">Toggle Navigation</span>	
 	   				<span class="icon-bar"></span>
 	   				<span class="icon-bar"></span>
@@ -41,7 +43,7 @@
 	   			</button>
 	   		</div>
 
-		   	<div class="collapse navbar-collapse" id="menuItems">
+		   	<div class="collapse navbar-collapse" id="menuitems">
 		      	<ul class="nav navbar-nav navbar-left">
 		         	<li><a href="../home/home.html" class="text-uppercase text-muted">Home</a></li>
 		         	<li class="active"><a href="../products/products.html" class="text-uppercase text-muted">Products</a></li>
@@ -50,8 +52,8 @@
 		         	<li><a href="../faqs/faqs.html" class="text-uppercase text-muted">faqs</a></li>
 		      	</ul>
 		      	<div class="navbar-right social-media">
-			   		<a href="https://www.facebook.com/thatjuliebaked" target="blank" title="Facebook" class="btn btn-lg"><i class="fab fa-facebook-f"></i></a>
-			   		<a href="https://instagram.com/thatjuliebaked" target="blank" title="Instagram" class="btn btn-lg"><i class="fab fa-instagram"></i></a>
+			   		<a href="https://www.facebook.com/thatjuliebaked" target="blank" title="Facebook" class="btn btn-lg social-media-color"><i class="fab fa-facebook-f"></i></a>
+			   		<a href="https://instagram.com/thatjuliebaked" target="blank" title="Instagram" class="btn btn-lg social-media-color"><i class="fab fa-instagram"></i></a>
 					</div>
 		   	</div>
 			</div>
@@ -64,47 +66,123 @@
   		<!-- Cookies -->
   		<div class="row">
   			<h2 class="text-center menu-header">Cookies</h2>
-  			<div class="col-md-3 col-sm-6">
+  			<!-- thumbnail#1 -->
+  			<div class="col-sm-6 col-md-3">
   				<div class="thumbnail">
-  					<a href="assets/img/mangocake.jpg" target="blank">
-  						<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
-  						<div class="caption text-center">
-  							<p>Mango Cake</p>
-  						</div>
-  					</a>
+					<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
+					<div class="caption text-center">
+						<p>Mango Cake</p>
+					</div>
+					
+					<!-- Trigger -->
+					<button type="button" class="btn btn-sm btn-view" data-toggle="modal" data-target="#mymodal">View</button>
+
+					<!-- Modal -->
+					<div id="mymodal" class="modal" role="dialog">
+						<div class="modal-dialog">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Mango Cake</h3>
+								</div>
+								<div class="modal-body">
+									<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
+								</div>
+							</div>
+						</div>
+					</div>
   				</div>
   			</div>
 
-  			<div class="col-md-3 col-sm-6">
+  			<!-- thumbnail#2 -->
+  			<div class="col-sm-6 col-md-3">
   				<div class="thumbnail">
-  					<a href="assets/img/chocoganachecake.jpg" target="blank">
-  						<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="Choco Ganache Cake">
-  						<div class="caption text-center">
-  							<p>Choco Ganache Cake</p>
-  						</div>
-  					</a>
+					<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="choco ganache cake">
+					<div class="caption text-center">
+						<p>Choco Ganache Cake</p>
+					</div>
+					
+					<!-- Trigger -->
+					<button type="button" class="btn btn-sm btn-view" data-toggle="modal" data-target="#mymodal">View</button>
+
+					<!-- Modal -->
+					<div id="mymodal" class="modal" role="dialog">
+						<div class="modal-dialog">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Choco Ganache Cake</h3>
+								</div>
+								<div class="modal-body">
+									<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="choco ganache cake">
+								</div>
+							</div>
+						</div>
+					</div>
   				</div>
   			</div>
 
-  			<div class="col-md-3 col-sm-6">
+  			<!-- thumbnail#3 -->
+  			<div class="col-sm-6 col-md-3">
   				<div class="thumbnail">
-  					<a href="assets/img/chocoganachecake.jpg" target="blank">
-  						<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="Choco Ganache Cake">
-  						<div class="caption text-center">
-  							<p>Choco Ganache Cake</p>
-  						</div>
-  					</a>
+					<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
+					<div class="caption text-center">
+						<p>Mango Cake</p>
+					</div>
+					
+					<!-- Trigger -->
+					<button type="button" class="btn btn-sm btn-view" data-toggle="modal" data-target="#mymodal">View</button>
+
+					<!-- Modal -->
+					<div id="mymodal" class="modal" role="dialog">
+						<div class="modal-dialog">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Mango Cake</h3>
+								</div>
+								<div class="modal-body">
+									<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
+								</div>
+							</div>
+						</div>
+					</div>
   				</div>
   			</div>
 
-  			<div class="col-md-3 col-sm-6">
+  			<!-- thumbnail#4 -->
+  			<div class="col-sm-6 col-md-3">
   				<div class="thumbnail">
-  					<a href="assets/img/chocoganachecake.jpg" target="blank">
-  						<img src="assets/img/chocoganachecake1.jpg" class="img-responsive thumb-img" alt="Choco Ganache Cake">
-  						<div class="caption text-center">
-  							<p>Choco Ganache Cake</p>
-  						</div>
-  					</a>
+					<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="choco ganache cake">
+					<div class="caption text-center">
+						<p>Choco Ganache Cake</p>
+					</div>
+					
+					<!-- Trigger -->
+					<button type="button" class="btn btn-sm btn-view" data-toggle="modal" data-target="#mymodal">View</button>
+
+					<!-- Modal -->
+					<div id="mymodal" class="modal" role="dialog">
+						<div class="modal-dialog">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Choco Ganache Cake</h3>
+								</div>
+								<div class="modal-body">
+									<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="choco ganache cake">
+								</div>
+							</div>
+						</div>
+					</div>
   				</div>
   			</div>
   		</div>
@@ -112,47 +190,123 @@
   		<!-- Cupcakes -->
   		<div class="row">
   			<h2 class="text-center menu-header">Cupcakes</h2>
-  			<div class="col-md-3 col-sm-6">
+  			<!-- thumbnail#1 -->
+  			<div class="col-sm-6 col-md-3">
   				<div class="thumbnail">
-  					<a href="assets/img/mangocake.jpg" target="blank">
-  						<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
-  						<div class="caption text-center">
-  							<p>Mango Cake</p>
-  						</div>
-  					</a>
+					<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
+					<div class="caption text-center">
+						<p>Mango Cake</p>
+					</div>
+					
+					<!-- Trigger -->
+					<button type="button" class="btn btn-sm btn-view" data-toggle="modal" data-target="#mymodal">View</button>
+
+					<!-- Modal -->
+					<div id="mymodal" class="modal" role="dialog">
+						<div class="modal-dialog">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Mango Cake</h3>
+								</div>
+								<div class="modal-body">
+									<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
+								</div>
+							</div>
+						</div>
+					</div>
   				</div>
   			</div>
 
-  			<div class="col-md-3 col-sm-6">
+  			<!-- thumbnail#2 -->
+  			<div class="col-sm-6 col-md-3">
   				<div class="thumbnail">
-  					<a href="assets/img/chocoganachecake.jpg" target="blank">
-  						<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="Choco Ganache Cake">
-  						<div class="caption text-center">
-  							<p>Choco Ganache Cake</p>
-  						</div>
-  					</a>
+					<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="choco ganache cake">
+					<div class="caption text-center">
+						<p>Choco Ganache Cake</p>
+					</div>
+					
+					<!-- Trigger -->
+					<button type="button" class="btn btn-sm btn-view" data-toggle="modal" data-target="#mymodal">View</button>
+
+					<!-- Modal -->
+					<div id="mymodal" class="modal" role="dialog">
+						<div class="modal-dialog">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Choco Ganache Cake</h3>
+								</div>
+								<div class="modal-body">
+									<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="choco ganache cake">
+								</div>
+							</div>
+						</div>
+					</div>
   				</div>
   			</div>
 
-  			<div class="col-md-3 col-sm-6">
+  			<!-- thumbnail#3 -->
+  			<div class="col-sm-6 col-md-3">
   				<div class="thumbnail">
-  					<a href="assets/img/chocoganachecake.jpg" target="blank">
-  						<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="Choco Ganache Cake">
-  						<div class="caption text-center">
-  							<p>Choco Ganache Cake</p>
-  						</div>
-  					</a>
+					<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
+					<div class="caption text-center">
+						<p>Mango Cake</p>
+					</div>
+					
+					<!-- Trigger -->
+					<button type="button" class="btn btn-sm btn-view" data-toggle="modal" data-target="#mymodal">View</button>
+
+					<!-- Modal -->
+					<div id="mymodal" class="modal" role="dialog">
+						<div class="modal-dialog">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Mango Cake</h3>
+								</div>
+								<div class="modal-body">
+									<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
+								</div>
+							</div>
+						</div>
+					</div>
   				</div>
   			</div>
 
-  			<div class="col-md-3 col-sm-6">
+  			<!-- thumbnail#4 -->
+  			<div class="col-sm-6 col-md-3">
   				<div class="thumbnail">
-  					<a href="assets/img/chocoganachecake.jpg" target="blank">
-  						<img src="assets/img/chocoganachecake1.jpg" class="img-responsive thumb-img" alt="Choco Ganache Cake">
-  						<div class="caption text-center">
-  							<p>Choco Ganache Cake</p>
-  						</div>
-  					</a>
+					<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="choco ganache cake">
+					<div class="caption text-center">
+						<p>Choco Ganache Cake</p>
+					</div>
+					
+					<!-- Trigger -->
+					<button type="button" class="btn btn-sm btn-view" data-toggle="modal" data-target="#mymodal">View</button>
+
+					<!-- Modal -->
+					<div id="mymodal" class="modal" role="dialog">
+						<div class="modal-dialog">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Choco Ganache Cake</h3>
+								</div>
+								<div class="modal-body">
+									<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="choco ganache cake">
+								</div>
+							</div>
+						</div>
+					</div>
   				</div>
   			</div>
   		</div>
@@ -160,66 +314,143 @@
   		<!-- Cakes -->
   		<div class="row">
   			<h2 class="text-center menu-header">Cakes</h2>
-  			<div class="col-md-3 col-sm-6">
+  			<!-- thumbnail#1 -->
+  			<div class="col-sm-6 col-md-3">
   				<div class="thumbnail">
-  					<a href="assets/img/mangocake.jpg" target="blank">
-  						<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
-  						<div class="caption text-center">
-  							<p>Mango Cake</p>
-  						</div>
-  					</a>
+					<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
+					<div class="caption text-center">
+						<p>Mango Cake</p>
+					</div>
+					
+					<!-- Trigger -->
+					<button type="button" class="btn btn-sm btn-view" data-toggle="modal" data-target="#mymodal">View</button>
+
+					<!-- Modal -->
+					<div id="mymodal" class="modal" role="dialog">
+						<div class="modal-dialog">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Mango Cake</h3>
+								</div>
+								<div class="modal-body">
+									<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
+								</div>
+							</div>
+						</div>
+					</div>
   				</div>
   			</div>
 
-  			<div class="col-md-3 col-sm-6">
+  			<!-- thumbnail#2 -->
+  			<div class="col-sm-6 col-md-3">
   				<div class="thumbnail">
-  					<a href="assets/img/chocoganachecake.jpg" target="blank">
-  						<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="Choco Ganache Cake">
-  						<div class="caption text-center">
-  							<p>Choco Ganache Cake</p>
-  						</div>
-  					</a>
+					<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="choco ganache cake">
+					<div class="caption text-center">
+						<p>Choco Ganache Cake</p>
+					</div>
+					
+					<!-- Trigger -->
+					<button type="button" class="btn btn-sm btn-view" data-toggle="modal" data-target="#mymodal">View</button>
+
+					<!-- Modal -->
+					<div id="mymodal" class="modal" role="dialog">
+						<div class="modal-dialog">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Choco Ganache Cake</h3>
+								</div>
+								<div class="modal-body">
+									<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="choco ganache cake">
+								</div>
+							</div>
+						</div>
+					</div>
   				</div>
   			</div>
 
-  			<div class="col-md-3 col-sm-6">
+  			<!-- thumbnail#3 -->
+  			<div class="col-sm-6 col-md-3">
   				<div class="thumbnail">
-  					<a href="assets/img/chocoganachecake.jpg" target="blank">
-  						<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="Choco Ganache Cake">
-  						<div class="caption text-center">
-  							<p>Choco Ganache Cake</p>
-  						</div>
-  					</a>
+					<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
+					<div class="caption text-center">
+						<p>Mango Cake</p>
+					</div>
+					
+					<!-- Trigger -->
+					<button type="button" class="btn btn-sm btn-view" data-toggle="modal" data-target="#mymodal">View</button>
+
+					<!-- Modal -->
+					<div id="mymodal" class="modal" role="dialog">
+						<div class="modal-dialog">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Mango Cake</h3>
+								</div>
+								<div class="modal-body">
+									<img src="assets/img/mangocake1.jpg" class="img-responsive" alt="Mango Cake">
+								</div>
+							</div>
+						</div>
+					</div>
   				</div>
   			</div>
 
-  			<div class="col-md-3 col-sm-6">
+  			<!-- thumbnail#4 -->
+  			<div class="col-sm-6 col-md-3">
   				<div class="thumbnail">
-  					<a href="assets/img/chocoganachecake.jpg" target="blank">
-  						<img src="assets/img/chocoganachecake1.jpg" class="img-responsive thumb-img" alt="Choco Ganache Cake">
-  						<div class="caption text-center">
-  							<p>Choco Ganache Cake</p>
-  						</div>
-  					</a>
+					<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="choco ganache cake">
+					<div class="caption text-center">
+						<p>Choco Ganache Cake</p>
+					</div>
+					
+					<!-- Trigger -->
+					<button type="button" class="btn btn-sm btn-view" data-toggle="modal" data-target="#mymodal">View</button>
+
+					<!-- Modal -->
+					<div id="mymodal" class="modal" role="dialog">
+						<div class="modal-dialog">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Choco Ganache Cake</h3>
+								</div>
+								<div class="modal-body">
+									<img src="assets/img/chocoganachecake1.jpg" class="img-responsive" alt="choco ganache cake">
+								</div>
+							</div>
+						</div>
+					</div>
   				</div>
   			</div>
   		</div>
  	</div>
 
-  <!-- footer -->
-	<div class="container">
-		<div class="footer">
-			<div class="col-md-6 col-sm-6 col-xs-12 text-left">
+  	<!-- footer -->
+	<div class="container-fluid">
+		<div class="row footer text-center">
+			<div class="col-md-6">
 				<p>Website design by Julie Bernardo</p>
-			</div>
-			<div class="col-md-6 col-sm-6 col-xs-12 text-right">
 				<p>&copy 2018 That Julie Baked</p>
 			</div>
-  	</div>
+			<div class="col-md-6">
+				<a href="https://www.facebook.com/thatjuliebaked" target="blank" title="Facebook" class="btn btn-lg social-media-color"><i class="fab fa-facebook-f"></i></a>
+			   	<a href="https://instagram.com/thatjuliebaked" target="blank" title="Instagram" class="btn btn-lg social-media-color"><i class="fab fa-instagram"></i></a>
+			</div>
+  		</div>
 	</div>
-
-
-
+	
+                                                                                         
 
 
 
