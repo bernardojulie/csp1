@@ -55,26 +55,17 @@ footer {
 
 /* desktop */
 @media only screen and (min-width: 961px){
-	.container > .btn{
-		display: none;
-	}
+
 }
 
 /* tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px){
-	.container > .btn{
-		display: none;
-	}
+
 }
 
 /* mobile */
 @media only screen and (max-width: 400px){
-	.back-to-top {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	z-index: 1;
-	}
+
 }
 
 
