@@ -13,6 +13,9 @@
 }*/
 body{
 	background-image: url(../img/doublechoco.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	margin 0 auto;
 }
 
 .tagline{

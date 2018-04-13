@@ -29,6 +29,7 @@ body{
 
 .container > .collapse > .nav > .active > a{
 	background-color: #f06292;
+	color: white;
 }
 
 /*-------------*/
@@ -48,12 +49,9 @@ body{
 /*------*/
 /*footer*/
 /*------*/
-.footer {
-   position: relative;
-   left: 0;
-   bottom: 0;
-   background-color: #f06292;
-   color: white;
+footer { 
+	background-color: #f06292; 
+	margin-top: 70px;
 }
 
 .follow-us{
@@ -65,3 +63,20 @@ body{
 }
 
 
+
+
+
+/* desktop */
+@media only screen and (min-width: 961px){
+
+}
+
+/* tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	
+}
+
+/* mobile */
+@media only screen and (max-width: 400px){
+
+}
