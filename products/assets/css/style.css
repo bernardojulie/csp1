@@ -89,7 +89,7 @@ footer {
 }
 
 /*mobile - iphone4*/
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 400px){
 	.menu-header{
 		font-size: 20px;
 	}
