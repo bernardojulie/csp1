@@ -8,7 +8,7 @@
 body{
 	background-color: #ffffff;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='61' height='61' viewBox='0 0 90 90'%3E%3Ccircle fill-opacity='0.93' fill='%23f2cdfa' cx='45' cy='45' r='9'/%3E%3Cg fill='%23eff754' fill-opacity='0.93'%3E%3Ccircle cx='0' cy='90' r='9'/%3E%3Ccircle cx='90' cy='90' r='9'/%3E%3Ccircle cx='90' cy='0' r='9'/%3E%3Ccircle cx='0' cy='0' r='9'/%3E%3C/g%3E%3C/svg%3E");
-
+	overflow-x: hidden;
 }
 
 /*------*/
@@ -33,12 +33,27 @@ body{
 	color: white;
 }
 
+/*-------*/
+/* about */
+/*-------*/
+.we-do{
+	height: 200px;
+	margin: 20px;
+}
+
+.about-julie{
+	height: 200px;
+	margin-right: 20px;
+	margin-left:  20px;
+}
+
+
 /*------*/
 /*footer*/
 /*------*/
 footer { 
 	background-color: #f06292; 
-	margin-top: 70px;
+	/*margin-top: 70px;*/
 }
 
 .follow-us{
@@ -53,19 +68,40 @@ footer {
 
 
 
-/* desktop */
-@media only screen and (min-width: 961px){
-
-}
-
 /* tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px){
+	.we-do,
+	.about-julie{
+		margin: 10px;
+		height: 200px;
+	}
 
+	.we-do > h3,
+	.about-julie > h3{
+		font-size: 30px
+	}
+
+	.we-do > p,
+	.about-julie > p{
+		font-size: 16px
+	}
+
+	footer { 
+		margin-top: 50px;
+	}
 }
 
 /* mobile */
 @media only screen and (max-width: 400px){
+	.we-do,
+	.about-julie{
+		margin: 5px;
+		height: 200px;
+	}
 
+	footer { 
+		margin-top: 50px;
+	}
 }
 
 

@@ -8,6 +8,7 @@
 body{
 	background-color: #ffffff;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='61' height='61' viewBox='0 0 90 90'%3E%3Ccircle fill-opacity='0.93' fill='%23f2cdfa' cx='45' cy='45' r='9'/%3E%3Cg fill='%23eff754' fill-opacity='0.93'%3E%3Ccircle cx='0' cy='90' r='9'/%3E%3Ccircle cx='90' cy='90' r='9'/%3E%3Ccircle cx='90' cy='0' r='9'/%3E%3Ccircle cx='0' cy='0' r='9'/%3E%3C/g%3E%3C/svg%3E");
+	overflow-x: hidden;
 }
 
 /*------*/
@@ -41,16 +42,31 @@ body{
 	border: 2px solid grey;
 }
 
-.form-group > .form-control{
-	background-color: darkgrey;
+.lets-talk{
+	font-size: 30px;
+	color: #f06292;
 }
+
+.form-group > .form-control{
+	background-color: #b2ebf2;
+	border-color: #b2ebf2;
+}
+
+.form-group > label{
+	color: #616161;
+}
+
+#submit-button:hover{
+	background-color: #4dd0e1;
+	border-color: #4dd0e1;
+}
+
 
 /*------*/
 /*footer*/
 /*------*/
 footer { 
 	background-color: #f06292; 
-	margin-top: 150px;
 }
 
 .follow-us{
@@ -64,32 +80,17 @@ footer {
 
 
 
-/* desktop */
-@media only screen and (min-width: 961px){
-	.container > .btn{
-		display: none;
-	}
-
-}
 
 /* tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px){
-	.container > .btn{
-		display: none;
-	}
-
 	footer { 
 		margin-top: 50px;
 	}
-
 }
 
 /* mobile */
 @media only screen and (max-width: 400px){
-	.back-to-top {
-		position: fixed;
-		bottom: 20px;
-		right: 20px;
-		z-index: 1;
+	footer { 
+		margin-top: 50px;
 	}
 }

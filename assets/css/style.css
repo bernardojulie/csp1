@@ -15,16 +15,8 @@
 	background-position: 50% 50%;
 }
 
-/*.class > .inner{
-	display: table-cell;
-	vertical-align: middle;
-	width: 100%;
-	max-width: none;
-
-}*/
 
 .content{
-	/*max-width: 500px;*/
 	margin: 0 auto;
 	text-align: center;
 	position: absolute;
@@ -43,16 +35,9 @@
 }
 
 
-/* desktop */
-@media only screen and (min-width: 961px){
-
-
-}
-
 /* tablet */
 @media only screen and (min-width: 401px) and (max-width: 960px){
 	.content{
-		/*max-width: 500px;*/
 		margin: 0 auto;
 		text-align: center;
 		position: absolute;
@@ -73,11 +58,10 @@
 /* mobile */
 @media only screen and (max-width: 400px){
 	.content{
-		/*max-width: 500px;*/
 		margin: 0 auto;
 		text-align: center;
 		position: absolute;
-		top: 0;
+		top: 160px;
 		left: 0;
 		max-width: 400px;
 	}
